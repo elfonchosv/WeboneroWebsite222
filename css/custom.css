@@ -76,3 +76,7 @@ a.color-white:hover {
         min-height: 145px;
     }
   }
+
+  #marcas{
+      background-image: url(..img/marcas.png);
+  }
