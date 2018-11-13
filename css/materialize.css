@@ -3,6 +3,14 @@
  * Copyright 2014-2017 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
+
+ .tap-target {
+  color: #fff;
+  a {
+    color: #fff;
+    text-decoration:underline;
+  }
+}
 .materialize-red {
   background-color: #e51c23 !important;
 }
