@@ -4400,7 +4400,8 @@ nav ul li {
 }
 
 nav ul li.active {
-  background-color: rgba(0, 0, 0, 0.1);
+  /*background-color: rgba(0, 0, 0, 0.1);*/
+  color: black !important;
 }
 
 nav ul a {
@@ -4428,6 +4429,8 @@ nav ul a:hover {
   /*background-color: rgba(0, 0, 0, 0.1);*/
 color: black;
 }
+
+
 
 
 
