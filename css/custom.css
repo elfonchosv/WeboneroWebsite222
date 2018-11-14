@@ -1,3 +1,7 @@
+.card .card-content{
+    padding: 10px !important;
+}
+
 h1{
     font-family: 'Poppins', sans-serif;
 }
@@ -67,16 +71,22 @@ a.color-white:hover {
 
 @media only screen and (min-width: 600px) {
     .card .card-content{
-        min-height: 178px;
+       /* min-height: 178px; */
     }
   }
 
   @media only screen and (min-width: 1240px) {
     .card .card-content{
-        min-height: 145px;
+        /*min-height: 145px;*/
     }
   }
 
   #marcas{
       background-image: url(..img/marcas.png);
+  }
+
+  .price{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
   }
