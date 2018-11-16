@@ -108,3 +108,8 @@ a.color-white:hover {
   color: black !important;
   }
 
+  .bg-image-1 {
+    background-image: url(https://pixinvent.com/materialize-material-design-admin-template/images/cards/macbook.png);
+    width: 100%;
+    background-size: cover;
+
