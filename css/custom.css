@@ -4,18 +4,21 @@
 
 h1{
     font-family: 'Poppins', sans-serif;
+    
 }
 .foo-title{
     font-family: 'Poppins', sans-serif;
+    
     font-size: 16px;
 }
 .roboto{
-    font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    /*font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;*/
     line-height: 2;
     color: white;
 }
 h2{
     font-family: 'Poppins', sans-serif;
+
     font-size: 2.5rem;
     color:b#06121D;
     line-height: 1.3;
@@ -23,7 +26,7 @@ h2{
 h3{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
-    color:#7f7f7f;  
+    /*color:#7f7f7f;*/
     margin-block-start:0px !important;
 }
 
@@ -47,13 +50,14 @@ li{
 }
 
 p{
-    font-size:20px;
-    /*line-height:1;*/
-    font-weight:400;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-size:17px;
+    font-weight:500;
+    font-family: 'Quicksand', sans-serif;
+    color: #333333de;
 }
 .texto_gris{
-    color:#464646de;
+    color:#a5a5a5;
+    font-size:15px;
 }
 #web{
     background-image: url(img\web_design_webonero.png)
@@ -116,4 +120,22 @@ a.color-white:hover {
     background-image: url(https://pixinvent.com/materialize-material-design-admin-template/images/cards/macbook.png);
     width: 100%;
     background-size: cover;
+  }
+.poppins{
+    font-family: 'Poppins', sans-serif !important;
+}
 
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  
+}
