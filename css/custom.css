@@ -139,3 +139,7 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
   
 }
+
+.texto_gris{
+    color: #a09e9e;
+}
