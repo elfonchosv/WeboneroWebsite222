@@ -143,3 +143,6 @@ body::-webkit-scrollbar-thumb {
 .texto_gris{
     color: #a09e9e;
 }
+#alternativa{
+    padding-bottom:30px;
+}
